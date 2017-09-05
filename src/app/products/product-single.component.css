@@ -1,0 +1,13 @@
+td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    margin: 3px;
+}

@@ -10,8 +10,6 @@ import { IProduct } from './product';
 export class ProductlistComponent implements OnInit {
 
     pageTitle: string = 'Product List';
-    imageWidth: number = 50;
-    imageMargin: number = 3;
     showImage: boolean = false;
 
     _listFilter: string;

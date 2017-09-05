@@ -2,3 +2,9 @@ thead {
     color: #337AB7;
     font-size: 1.5rem;
 }
+pm-product{
+    display: table-row;
+    border-collapse: collapse;
+    vertical-align: inherit;
+    border-color: inherit;
+}

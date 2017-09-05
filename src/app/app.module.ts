@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { ProductlistComponent } from './products/product-list.component';
 import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { StarComponent } from './shared/star.component';
+import { ProductSingleComponent } from './products/product-single.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductlistComponent,
+    ProductSingleComponent,
     ConvertToSpacesPipe,
     StarComponent
   ],
