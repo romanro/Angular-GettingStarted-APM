@@ -13,6 +13,7 @@
         <p><strong>Name:</strong> {{product.productName}}</p>
         <p><strong>Code:</strong> {{product.productCode | lowercase | convertToSpaces: '-'}}</p>
         <p><strong>Description:</strong> {{product.description}}</p>
+        <h4 class="text-primary"><strong>Price:</strong> {{product.price|currency:'USD':true}}</h4>
       </div>
     </div>
   </div>
