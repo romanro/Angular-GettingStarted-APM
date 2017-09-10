@@ -31,7 +31,8 @@ import { ProductGuardService } from './products/product-guard.service';
       {path: 'products', component: ProductlistComponent},
       {path: 'products/:id', canActivate: [ ProductGuardService ], component: ProductDetailComponent},
       {path: 'welcome', component: WelcomeComponent},
-      {path: '', redirectTo: 'welcome', pathMatch: 'full'}
+      {path: '', redirectTo: 'welcome', pathMatch: 'full'},
+      {path: '**', redirectTo: 'welcome', pathMatch: 'full'}
     ])
   ],
   providers: [ProductGuardService],
