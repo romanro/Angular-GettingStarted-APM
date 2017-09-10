@@ -2,6 +2,20 @@
   <div class="panel-heading">
       {{pageTitle + ': ' + product.productName}}
   </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img class="product-img image-responsive"
+          [src]='product.imageUrl'
+          [title]='product.productName'>
+      </div>
+      <div class="col-md-8 text-left">
+        <p><strong>Name:</strong> {{product.productName}}</p>
+        <p><strong>Code:</strong> {{product.productCode | lowercase | convertToSpaces: '-'}}</p>
+        <p><strong>Description:</strong> {{product.description}}</p>
+      </div>
+    </div>
+  </div>
   <div class="panel-footer">
     <a class="btn btn-default" (click)='onBack()'>
       <i class="glyphicon glyphicon-chevron-left"></i> Back
